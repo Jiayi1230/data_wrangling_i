@@ -25,3 +25,10 @@ litters_df
 skimr::skim(litters_df)
 ```
 
+## options to read_csv
+
+Check out read_csv for more info.
+```{r eval=FALSE}
+litters_df=read_csv("./data/FAS_litters.csv", skip=10, col_names = FALSE)
+```
+
